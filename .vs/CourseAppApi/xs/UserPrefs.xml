@@ -6,7 +6,7 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Service/Services/EducationService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CourseAppApi/appsettings.Development.json">
     <Files>
       <File FileName="Service/Services/StudentService.cs" />
       <File FileName="Repository/Repositories/Interfaces/ITeacherRepository.cs" />
@@ -33,7 +33,7 @@
       <File FileName="Service/Services/Interfaces/IGroupService.cs" />
       <File FileName="Service/Services/GroupService.cs" />
       <File FileName="CourseAppApi/Controllers/Admin/GroupController.cs" />
-      <File FileName="CourseAppApi/Controllers/Admin/EducationController.cs" Line="55" Column="67" />
+      <File FileName="CourseAppApi/Controllers/Admin/EducationController.cs" />
       <File FileName="CourseAppApi/Controllers/Admin/RoomController.cs" />
       <File FileName="Service/DTOs/Admin/Teachers/TeacherDetailDto.cs" />
       <File FileName="Service/DTOs/Admin/Groups/GroupDetailDto.cs" />
@@ -48,9 +48,9 @@
       <File FileName="Repository/Repositories/RoomRepository.cs" />
       <File FileName="Service/DTOs/Admin/Groups/GroupCreateDto.cs" />
       <File FileName="Domain/Entities/Group.cs" />
-      <File FileName="Service/Services/EducationService.cs" Line="49" Column="56" />
+      <File FileName="Service/Services/EducationService.cs" />
       <File FileName="Service/DTOs/Admin/Groups/GroupEditDto.cs" />
-      <File FileName="CourseAppApi/appsettings.Development.json" />
+      <File FileName="CourseAppApi/appsettings.Development.json" Line="10" Column="1" />
       <File FileName="CourseAppApi/Program.cs" />
       <File FileName="CourseAppApi/Middlewares/ExceptionHandlingMiddleware.cs" />
     </Files>
@@ -63,7 +63,9 @@
                 <Node name="Admin" expanded="True" />
               </Node>
               <Node name="Middlewares" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
+              </Node>
             </Node>
             <Node name="Domain" expanded="True">
               <Node name="Common" expanded="True" />
@@ -88,7 +90,6 @@
               <Node name="Helpers" expanded="True" />
               <Node name="Services" expanded="True">
                 <Node name="Interfaces" expanded="True" />
-                <Node name="EducationService.cs" selected="True" />
               </Node>
             </Node>
           </Node>
